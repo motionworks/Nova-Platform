@@ -1,0 +1,142 @@
+@import "partials/base";
+@import "compass/utilities/sprites";
+@import "footer/*.png";
+
+#aim_footer {
+  background: #fff;
+  border-top: 2px solid #888;
+  font-family: 'Verdana', sans-serif;
+  .inner {
+    width: 800px;
+    padding: 13px 0 13px 160px;
+    background: image_url('aim_footer_flux.png') 60px 16px no-repeat;
+    min-height: 60px;
+    margin: 0 auto 50px;
+  }
+  a {
+    color: #fb5793;
+    &:hover {
+      color: #ffae00;
+    }
+  }
+  #copyright {
+    margin-top: 10px;
+    float: left; 
+    width: 530px;
+  }
+  #logo_aim {
+    float: right;
+    width: 211px;
+    margin-top: 0px;
+    a {
+      @include replace-text-with-dimensions('aim_footer_logo.png');
+      display: block;
+      float: right;
+    }
+  }
+}
+
+#sticky_footer {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  left: 0;
+  z-index: 3000;
+  background: #262626;
+  .inner {
+    width: 960px;
+    margin: 0 auto;
+  }
+  li {
+    @include inline-block;
+    a {
+      display: block;
+      text-indent: -9999px;
+    }
+  }
+  
+  #footer_network {
+    width: 480px;
+    float: left;
+    margin-top: 10px;
+    li {
+      position: relative;
+    }
+  }
+  #footer_social {
+    width: 250px;
+    float: right;
+    &>nav, &>div {
+      @include inline-block;
+      vertical-align: middle;
+    }
+    nav {
+      margin-right: 26px;
+      margin-top: 8px;
+    }
+    li, &>div {
+      margin: 0 4px;
+    }
+    #footer_facebook_like {
+      margin-top: 16px;
+    }
+  }
+  
+  .info {
+    position: absolute;
+    width: 308px;
+    height: 253px;
+    top: 100px;
+    font-size: 15px;
+    z-index: -1;
+    @include box-shadow(rgba(0,0,0,0.75) 0 2px 10px);
+    p {
+      color: #fff;
+      position: absolute;
+      top: 90px;
+      left: 100px;
+      width: 180px;
+    }
+    a {
+      text-indent: 0;
+      display: block;
+      position: absolute;
+      background: #fff200;
+      padding: 4px 8px;
+      bottom: 13px;
+      right: 13px;
+      color: #000;
+      &:hover {
+        background: #ff9c00;
+      }
+    }
+  }
+  
+  #footer_home>a {
+    @include footer-sprite(aim_footer_nav_home); width: 113px; height: 32px;
+    &:hover {@include footer-sprite(aim_footer_nav_home_over);}
+  }
+  #footer_learn{
+    &>a {@include footer-sprite(aim_footer_nav_learn); width: 100px; height: 32px;}
+    &>a:hover {@include footer-sprite(aim_footer_nav_learn_over);}
+    .info {@include footer-sprite(aim_footer_learn)}
+  }
+  #footer_share{
+    &>a {@include footer-sprite(aim_footer_nav_share); width: 99px; height: 32px;}
+    &>a:hover {@include footer-sprite(aim_footer_nav_share_over);}
+    .info {@include footer-sprite(aim_footer_share)}
+  }
+  #footer_participate{
+    &>a {@include footer-sprite(aim_footer_nav_participate); width: 136px; height: 32px;}
+    &>a:hover {@include footer-sprite(aim_footer_nav_participate_over);}
+    .info {@include footer-sprite(aim_footer_participate)}
+  }
+  #footer_facebook>a{
+    @include footer-sprite(aim_footer_facebook);width: 23px; height: 23px;
+  }
+  #footer_twitter>a{
+    @include footer-sprite(aim_footer_twitter);width: 23px; height: 23px;
+  }
+
+}

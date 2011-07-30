@@ -1,0 +1,43 @@
+.footer-sprite, #sticky_footer #footer_home > a, #sticky_footer #footer_home > a:hover, #sticky_footer #footer_learn > a, #sticky_footer #footer_learn > a:hover, #sticky_footer #footer_learn .info, #sticky_footer #footer_share > a, #sticky_footer #footer_share > a:hover, #sticky_footer #footer_share .info, #sticky_footer #footer_participate > a, #sticky_footer #footer_participate > a:hover, #sticky_footer #footer_participate .info, #sticky_footer #footer_adopt> a, #sticky_footer #footer_adopt> a:hover, #sticky_footer #footer_adopt .info,#sticky_footer #footer_facebook > a, #sticky_footer #footer_twitter > a { background: url('../images/footer-642e5c8231.png') no-repeat; }
+
+#aim_footer { background: #fff; border-top: 2px solid #888; font-family: 'Verdana', sans-serif; }
+#aim_footer .inner { width: 800px; padding: 13px 0 13px 160px; background: url('../images/aim_footer_flux.png?1303191406') 60px 16px no-repeat; min-height: 60px; margin: 0 auto 50px; }
+#aim_footer a { color: #fb5793; }
+#aim_footer a:hover { color: #ffae00; }
+#aim_footer #copyright { margin-top: 10px; float: left; width: 530px; }
+#aim_footer #logo_aim { float: right; width: 211px; margin-top: 0px; }
+#aim_footer #logo_aim a { text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('../images/aim_footer_logo.png?1303038118'); background-repeat: no-repeat; background-position: 50% 50%; width: 260px; height: 64px; display: block; float: right; }
+
+#sticky_footer { position: fixed; width: 100%; height: 50px; bottom: 0; left: 0; z-index: 3000; background: #262626; }
+#sticky_footer .inner { width: 960px; margin: 0 auto; }
+#sticky_footer li { display: -moz-inline-box; -moz-box-orient: vertical; display: inline-block; vertical-align: middle; *vertical-align: auto; }
+#sticky_footer li { *display: inline; }
+#sticky_footer li a { display: block; text-indent: -9999px; }
+#sticky_footer #footer_network { width: 600px; float: left; margin-top: 10px; }
+#sticky_footer #footer_network li { position: relative; }
+#sticky_footer #footer_social { width: 250px; float: right; }
+#sticky_footer #footer_social > nav, #sticky_footer #footer_social > div { display: -moz-inline-box; -moz-box-orient: vertical; display: inline-block; vertical-align: middle; *vertical-align: auto; vertical-align: middle; }
+#sticky_footer #footer_social > nav, #sticky_footer #footer_social > div { *display: inline; }
+#sticky_footer #footer_social nav { margin-right: 26px; margin-top: 8px; }
+#sticky_footer #footer_social li, #sticky_footer #footer_social > div { margin: 0 4px; }
+#sticky_footer #footer_social #footer_facebook_like { margin-top: 16px; }
+#sticky_footer .info { position: absolute; width: 308px; height: 253px; top: 100px; font-size: 15px; z-index: -1; -moz-box-shadow: rgba(0, 0, 0, 0.75) 0 2px 10px; -webkit-box-shadow: rgba(0, 0, 0, 0.75) 0 2px 10px; -o-box-shadow: rgba(0, 0, 0, 0.75) 0 2px 10px; box-shadow: rgba(0, 0, 0, 0.75) 0 2px 10px; }
+#sticky_footer .info p { color: #fff; position: absolute; top: 90px; left: 100px; width: 180px; }
+#sticky_footer .info a { text-indent: 0; display: block; position: absolute; background: #fff200; padding: 4px 8px; bottom: 13px; right: 13px; color: #000; }
+#sticky_footer .info a:hover { background: #ff9c00; }
+#sticky_footer #footer_home > a { background-position: 0 -277px; width: 113px; height: 32px; }
+#sticky_footer #footer_home > a:hover { background-position: 0 -309px; }
+#sticky_footer #footer_learn > a { background-position: 0 -341px; width: 100px; height: 32px; }
+#sticky_footer #footer_learn > a:hover { background-position: 0 -373px; }
+#sticky_footer #footer_learn .info { background-position: 0 -23px; }
+#sticky_footer #footer_share > a { background-position: 0 -469px; width: 99px; height: 32px; }
+#sticky_footer #footer_share > a:hover { background-position: 0 -501px; }
+#sticky_footer #footer_share .info { background-position: 0 -786px; }
+#sticky_footer #footer_participate > a { background-position: 0 -405px; width: 136px; height: 32px; }
+#sticky_footer #footer_participate > a:hover { background-position: 0 -437px; }
+#sticky_footer #footer_participate .info { background-position: 0 -533px; }
+#sticky_footer #footer_adopt > a { background-position: 0 -1063px; width: 136px; height: 32px; }
+#sticky_footer #footer_adopt> a:hover { background-position: 0 -1095px; }
+#sticky_footer #footer_adopt .info { background-position: 0 -1127px; }
+#sticky_footer #footer_facebook > a { background-position: 0 0; width: 23px; height: 23px; }
+#sticky_footer #footer_twitter > a { background-position: 0 -1040px; width: 23px; height: 23px; }

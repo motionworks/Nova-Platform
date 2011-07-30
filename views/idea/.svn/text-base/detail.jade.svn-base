@@ -1,0 +1,25 @@
+.detail-page
+  .info
+    h1= i.title
+    p.idea-author
+      span.label By 
+      span.content= i.username
+    - if (i.contentType == 'url')
+      h2 Reference
+      p
+        a(href: i.url, target: '_blank') #{i.url}
+    - if (i.contentType == 'image')
+      h2 Reference
+      .idea-media
+        img(src : i.url)
+    - if (i.contentType == 'video')
+      h2 Reference
+      .idea-media
+        | <object style="height: 600px; width: 380px"><param name="movie" value="http://www.youtube.com/v/#{i.url}&version=3&feature=player_embedded"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/#{i.url}&version=3&feature=player_embedded" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="600" height="380"></object>
+    h2 Description
+    p.desc= i.desc
+  .comments
+    h2 Comments
+    #disqus_thread
+    | <script type="text/javascript">var disqus_shortname = 'opennova'; (function() {var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js'; (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);})();</script>
+    | <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

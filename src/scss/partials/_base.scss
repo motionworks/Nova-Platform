@@ -1,0 +1,102 @@
+@import "compass/css3";
+@import "compass/layout/sticky-footer";
+@import "compass/utilities/text/replacement";
+@import "compass/utilities/general/clearfix";
+
+$base-font-family: Verdana, Geneva, sans-serif;
+$display-font: "HandOfSeanRegular", "Comic Sans MS" , "Brush Script MT" , cursive, sans-serif;
+
+$base-font-size: 14px;
+
+$base-line-height: 1.6;
+
+$base-gap: $base-font-size * $base-line-height;
+
+$font-color: #444;
+
+$link-color: #0094cb;
+
+$link-hover-color: #00e0b3;
+
+$link-active-color: #607890;
+
+$link-visited-color: #607890;
+
+$selected-font-color: #fff;
+
+$selected-background-color: #00d6d3;
+
+$list-left-margin: 2em;
+
+$container-width: 960px;
+$footer-height: 20px;
+
+@mixin container {
+  width: $container-width;
+  margin: 0 auto;
+}
+
+@mixin button-link {
+  border-bottom: none;
+  @include inline-block;
+  background: #0078a4;
+  &:hover {
+    border-bottom: none;
+    background: #0bb1d4;
+    color: #fff;
+  }
+}
+
+@mixin border-image($value) { 
+  @include experimental(border-image, $value, -moz, -webkit, not -o, not 
+-ms, not -khtml, official); 
+}
+
+@mixin boxed {
+  border-width: 6px 6px 10px;
+  @include border-image(image_url('border.png') 5 5 8 5 stretch);
+}
+
+@mixin line-top {
+  background: image_url('line_hor.png') repeat-x top;
+}
+
+@mixin line-btm {
+  background: image_url('line_hor.png') repeat-x bottom;
+}
+
+@mixin line-right {
+  background: image_url('line_ver.png') repeat-y right;
+}
+
+@mixin tag-style {
+  margin: 0;
+  li {
+    @include inline-block;
+    a {
+      display: block;
+      background: #69767b;
+      font-size: 0.8em;
+      padding: 0.2em 0.4em;
+      color: #fff;
+      border: none;
+    }
+    &.active a, &:hover a {
+      background: #146786;
+      color: #fff;
+      border: none;
+    }
+  }
+}
+
+@mixin full-link {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-indent: -9999px;
+  border: none;
+  &:hover {border: none}
+}

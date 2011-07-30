@@ -1,0 +1,224 @@
+@import "icons/*.png";
+#idea {
+  #content {padding: 0 1em; text-align: center}
+  article {
+    @include inline-block;
+    @include boxed;
+    position: relative;
+    margin: 0.2em;
+    width: 280px;
+    padding: 0.5em;
+    text-align: left;
+    &:hover {
+      background-color: #ffe;
+    }
+    .tags {
+      @include tag-style;
+      position: relative;
+      z-index: 500;
+    }
+    .idea-author, ul {
+      overflow: hidden;
+    }
+    .comments {
+      display: none;
+    }
+  }
+  .text h2, .url h2{
+    font-size: 1.8em;
+    line-height: 1.2em;
+    margin-bottom: 0.5em;
+  }
+    
+  .image h2, .video h2 {
+    font-size: 1.4em;
+    line-height: 1em;
+    margin-bottom: 0.5em;
+  }
+  .idea-author {
+    margin-bottom: $base-gap/4;
+  }
+  article .more {
+    @include button-link;
+    padding: 4px 8px;
+    color: #fff;
+    z-index: 300;
+  }
+  .idea-media {
+    p {
+      font-size: 2.2em;
+      line-height: 1.2em;
+    }
+  }
+  .idea-up {
+    float: right;
+    width: 70px;
+    position: relative;
+    z-index: 500;
+    .icon {
+      float: left;
+      min-width: 35px;
+      a {
+        display: block;
+        margin: 0 auto;
+      }
+    }
+    .likes-count .icon {
+      @include icons-sprite(like);
+      text-indent: -9999px;
+      height: 21px;
+    }
+    .likes-count:hover .icon, .likes-count.active .icon{
+      @include icons-sprite(like_active);
+    }
+    .comments-count .icon {
+      @include icons-sprite(comment);
+      text-indent: -9999px;
+      height: 19px;
+    }
+    .comments-count:hover .icon {
+      @include icons-sprite(comment_active);
+    }
+  }
+  .loading {
+    background: image_url('loading.gif') center no-repeat!important;
+  }
+  .loading>*{
+    visibility: hidden;
+  }
+  #get-more-ideas {
+    @include boxed;
+    @include inline-block;
+    width: 200px;
+    font-size: 1.4em;
+    &:hover {
+      background: #0078a4;
+      color: #fff;
+    }
+  }
+}
+
+#idea-form-wrapper {
+  display: none;
+}
+
+#idea-form {
+  padding: 1em;
+  text-align: center;
+  h1 {
+    font-size: 3em;
+    margin-bottom: $base-gap/4;
+  }
+  p {
+    font-size: 1.4em;
+    margin-bottom: $base-gap;
+  }
+
+  ul {
+    margin: 0;
+  }
+  form>ul>li {
+    list-style: none;
+    margin-bottom: $base-gap/4;
+    width: 100%;
+    position: relative;
+  }
+  label, input {
+    @include inline-block;
+    vertical-align: top;
+    line-height: 1.2em;
+  }
+  .msg {
+    padding: 0.5em 1em;
+    font-size: 0.9em;
+    border: 1px solid #c00;
+    background: #faa;
+  }
+  label {width: 150px; font-size: 1.4em; text-align: left;}
+  input[type="text"],textarea {width: 400px}
+  input[type="submit"] {font-size: 1.4em}
+  .error {border: 1px solid #c00}
+  
+  #form_tags-suggest {
+    text-align: left;
+    width: 300px;
+    z-index: 5000;
+    ul {
+      @include boxed;
+      background: #fff;
+      display: none;
+    }
+    li {
+      cursor: pointer;
+      &:hover {
+        background: #ffd;
+      }
+    }
+  }
+  #form_tags-added {
+    text-align: left;
+    width: 380px;
+    min-height: 10px;
+    @include tag-style;
+    padding-left: 150px;
+  }
+}
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+#idea article.detail {
+  width: 63%;
+  .info, .comments {
+    @include inline-block;
+    vertical-align: top;
+  }
+  .info {
+    width: 48%;
+    margin-right: 4%;
+  }
+  .comments {
+    width: 48%;
+    padding: 0;
+  }
+  ul {
+    margin: 0;
+    img {
+      float: left;
+      margin-right: 1em;
+    }
+    .name {
+      font-weight: bold;
+    }
+  }
+  .delete {
+    position: absolute;
+    font-size: 1.2em;
+    right: 3px;
+    top: 3px;
+    font-weight: bold;
+  }
+}
+
+#idea .detail-page {
+  text-align: left;
+  h1 { font-size: 3em; }
+  h2 {font-size: 2em;}
+  h1, h2 {
+    font-family: $display-font;
+  }
+  .idea-author {font-weight: bold; font-size: 1.4em}
+  p {margin-bottom: 1em;}
+  .desc {
+    font-size: 1.2em;
+  }
+  .comments {
+    padding: 0;
+  }
+}

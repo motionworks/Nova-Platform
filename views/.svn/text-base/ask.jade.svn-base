@@ -1,0 +1,38 @@
+img(src="images/page_ask.png", width="960", height="675", alt="Wireframe for OpenNova's Wiki page")
+
+.spot_wrap#ask_f1
+  .spot
+    h2 Ask AIM
+    p Ask AIM is where users may seek expert advise and answers. Experts are identified by the fields or tags associated with them, similarly answers and questions also have tags.
+    a.toggle_comments(href="#", rel="f1") Discuss About This Feature &raquo;
+
+.spot_wrap#ask_f2
+  .spot
+    h2 Questions
+    p You may ask a question which will be automatically routed to an expert according to your question tags. If that expert doesn't answer within a day, it will be routed to the next expert and so on until someone answers you.
+    a.toggle_comments(href="#", rel="f2") Discuss About This Feature &raquo;
+
+.spot_wrap#ask_f3
+  .spot
+    h2 Questions Quick Search
+    p Do a quick search for your answers here. 
+    a.toggle_comments(href="#", rel="f3") Discuss About This Feature &raquo;
+
+.spot_wrap#ask_f4
+  .spot
+    h2 Random Featured Questions
+    p A randomly featured answer everyday based on rating and you may read them one by one if you have the time and curiosity.
+    a.toggle_comments(href="#", rel="f4") Discuss About This Feature &raquo;
+
+.spot_wrap#ask_f5
+  .spot
+    h2 Track Questions
+    p Track back all the questions you asked and answers you provided.
+    a.toggle_comments(href="#", rel="f5") Discuss About This Feature &raquo;
+
+.spot_wrap#ask_f6
+  .spot
+    h2 Filter the Answers
+    p You may filter answers according to their relevant tags only.
+    a.toggle_comments(href="#", rel="f6") Discuss About This Feature &raquo;
+

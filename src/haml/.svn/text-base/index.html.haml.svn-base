@@ -1,0 +1,210 @@
+!!! 5
+-# paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+%html.no-js
+  <!--<![endif]-->
+  %head
+    %meta{ :charset => "utf-8" }/
+    
+    -# 
+      Always force latest IE rendering engine (even in intranet) & Chrome Frame
+      Remove this if you use the .htaccess
+    %meta{ :content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible" }/
+    
+    %title
+    %meta{ :content => "", :name => "description" }/
+    %meta{ :content => "", :name => "author" }/
+    
+    -# Mobile viewport optimized: j.mp/bplateviewport
+    %meta{ :content => "width=device-width, initial-scale=1.0", :name => "viewport" }/
+    
+    -# CSS: implied media="all"
+    %link{ :href => "css/style.css?v=1", :media => "all", :rel => "stylesheet" }/
+    
+    -# All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects
+    %script{ :src => "js/modernizr.min.js" }
+    
+    %script{:id => "ideaTmpl", :type => "text/x-jquery-tmpl"}
+      %h2 ${title}
+      {{if (media != '') }}
+      .idea-media
+        %img{:src => "${media}", :width => "280", :height => "210"}
+      {{/if}}
+      %ul.idea-up
+        %li.likes <a href="#"><span class="icon">Likes:</span> ${likes}</a>
+        %li.comments <a href="#"><span class="icon">Comments:</span> ${commentsNum}</a>
+      %p.idea-author
+        %span.label By
+        %span.content ${user}
+      %ul.tags
+        {{each(i, tag) tags}}
+        %li
+          %a{:href => "#"} ${tag}
+        {{/each}}
+      %a.more{:href => "#"} Read More
+      
+    %script{:id => "ideaFormTmpl", :type => "text/x-jquery-tmpl"}
+      %form{:action => "/ideas/create"}
+        %h1 Share Your Idea Now!
+        %p Every idea is a gem!
+        %ul
+          %li 
+            %label{:for => "form_title"} Title
+            %input#form_title{:type => "text"}/
+          %li
+            %label{:for => "form_desc"} Description
+            %textarea#form_desc 
+          %li
+            %label{:for => "form_media"} Media URL <small>(Optional)</small>
+            %input#form_media{:type => "text"}/
+          %li
+            %label{:for => "form_tags"} Tags
+            %input#form_tags{:type => "text"}/
+            %ul#form_tags-added
+            #form_tags-suggest
+              %ul
+          %li
+            %input#submit{:type => "submit", :value => "Share Now!"}/
+    
+  %body#ideas{ :lang => "en" }
+    #container
+      %header#header
+        .inner
+          #site-logo
+            %a{:href => "#"} Nova
+          %nav#top-nav
+            %ul
+              %li
+                %a{:href => "#"} Ideas
+              %li
+                %a{:href => "#"} Collaborate
+              %li
+                %a{:href => "#"} Discuss
+              %li
+                %a{:href => "#"} Ask
+              %li
+                %a{:href => "#"} Wiki
+              %li
+                %a{:href => "#"} Stories
+          #user-login
+            %a{:href => "#"} Login
+      #main
+        %header#main-top
+          .inner
+            %p#section-counter <span class="label">Ideas Submitted:</span> <span class="number">28,265</span>
+            %h1 Ideas @ Nova
+            #topsearch
+              %input{:type => "text"}/
+              %input{:type => "submit", :value => "Search Now"}/
+        %nav#tags
+          .level-1
+            .inner
+              %ul#tag-type
+                %li
+                  %a{:href => "#"} All
+                %li
+                  %a{:href => "#"} Ideas
+                %li
+                  %a{:href => "#"} Concept
+                %li
+                  %a{:href => "#"} Prototype
+                %li
+                  %a{:href => "#"} Product
+                %li
+                  %a{:href => "#"} Problems
+              %ul#tag-sort
+                %li
+                  %a{:href => "#"} Latest
+                %li
+                  %a{:href => "#"} Popularity
+                %li
+                  %a{:href => "#"} Asc
+                %li
+                  %a{:href => "#"} Desc
+              %a#submit-idea{:href => "#"} Submit Idea
+          .level-2
+            .inner
+              %ul#tag-selected.tags
+                -#
+                  %li
+                    %a{:href => "#"} kuala lumpur
+                  %li
+                    %a{:href => "#"} green cars
+                  %li
+                    %a{:href => "#"} nano 
+                  %li
+                    %a{:href => "#"} hydro
+              %a#tag-refresh{:href => "#"} Update
+              %ul#tag-recommended.tags
+                -#
+                  %li
+                    %a{:href => "#"} green
+                  %li
+                    %a{:href => "#"} car
+                  %li
+                    %a{:href => "#"} petrol
+                  %li
+                    %a{:href => "#"} organic
+        #content
+          #ideas-container
+          %a#get-more-ideas{:href => "#"} <span>See More Ideas</span>
+        %footer#container-footer
+    %footer#footer
+      .inner
+        %nav#footer-nav
+          %ul
+            %li
+              %a{:href => "#"} Events
+            %li
+              %a{:href => "#"} Developers
+            %li
+              %a{:href => "#"} Disclaimer
+            %li
+              %a{:href => "#"} Terms Of Use
+            %li
+              %a{:href => "#"} Privacy Policy
+        #footer-copy
+          %p IdeaSpring is a InnoMalaysia initiative, a joint venture between <a href="#">AIM</a> and <a href="#">Motionworks</a>.
+    -# 
+      Javascript at the bottom for fast page loading
+      Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary
+    %script{ :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" }
+    :javascript
+      !window.jQuery && document.write(unescape('%3Cscript src="js/jquery.min.js"%3E%3C/script%3E'))
+    
+    -# Libraries
+    %script{ :src => "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js" }
+    %script{ :src => "js/jquery.tmpl.min.js?v=1" }
+    %script{ :src => "js/jquery.mockjax.min.js?v=1" }
+    %script{ :src => "js/jquery.nyroModal.custom.min.js?v=1" }
+    %script{ :src => "js/jquery.isotope.min.js?v=1" }
+    %script{ :src => "js/waypoints.min.js?v=1" }
+    %script{ :src => "js/underscore-min.js?v=1" }
+    %script{ :src => "js/backbone-min.js?v=1" }
+    
+    -# Custom scripts
+    %script{ :src => "js/ajax-mock.js?v=1" }
+    %script{ :src => "js/plugins.js?v=1" }
+    %script{ :src => "js/script.js?v=1" }
+    
+    /[if lt IE 7 ]
+      %script{ :src => "js/dd_belatedpng.js" }
+      :javascript
+        //DD_belatedPNG.fix('img, .png_bg');
+        
+    -#  asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet
+    -#  change the UA-XXXXX-X to be your site's ID
+    :javascript
+      var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
+      (function(d, t) {
+       var g = d.createElement(t),
+           s = d.getElementsByTagName(t)[0];
+       g.async = true;
+       g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       s.parentNode.insertBefore(g, s);
+      })(document, 'script');
+

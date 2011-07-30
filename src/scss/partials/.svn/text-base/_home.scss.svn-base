@@ -1,0 +1,133 @@
+#home {
+  #header {margin-bottom: $base-gap;}
+  #main-top {display: none}
+  
+  strong {
+    color: #0094CB;
+  }
+  
+  .pitch {
+    font-size: 1.4em;
+    margin-bottom: 1em;
+    p {
+      margin-bottom: $base-gap;
+    }
+    .big {
+      font-size: 2em;
+      line-height: 1.2em;
+      font-family: $display-font;
+      @include line-btm;
+      margin: 0;
+      padding-bottom: $base-gap;
+      
+    }
+    span {
+      display: block;
+      font-size: 0.6em;
+    }
+  }
+  
+  h2, h3 {
+    font-family: $display-font;
+    margin-bottom: 8px;
+  }
+  
+  h2 {
+    font-size: 2em;
+  }
+  
+  h3 {
+    font-size: 1.6em;
+  }
+  
+}
+
+#how-to {
+  @include line-btm;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  ol {
+    background: image_url('home_how.png') center no-repeat;
+    height: 346px;
+    text-indent: -9999px;
+    margin: 0;
+    width: 100%;
+  }
+}
+
+#story {
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  @include  line-btm;
+  font-size: 1.2em;
+  .story-inner {
+    width: 80%;
+    margin: 0 auto;
+  }
+  p {
+    margin-bottom: 1em;
+  }
+}
+
+#nova-progress {
+  text-align: left;
+  background: image_url('home_progress.png') center top no-repeat;
+  padding-top: 2em;
+  margin-bottom: 2em;
+  padding-left: 2em;
+  &>section {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    .progress-inner {
+      padding: 8px;
+    }
+  }
+  
+  h2 {
+    text-align: right;
+    font-size: 3em;
+    margin-bottom: 1.2em;
+    text-align: right;
+  }
+  
+  h3 {
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
+  
+  .contributors {
+    ul {
+      margin: 0;
+    }
+    li {
+      list-style: none;
+      @include inline-block;
+    }
+  }
+  
+  #idea {
+    width: 20%;
+    h3 {
+      color: #c1f182;
+    }
+    li {
+      margin: 0 2px 0 0;
+    }
+  }
+  
+  #concept {width: 40%}
+  #prototype, #product {
+    width: 25%
+    h2 {
+      color: #ddd;
+    }
+  }
+  
+  .dsq-widget-user, .dsq-widget-meta {display: none; margin: 0; padding: 0;}
+  .dsq-widget-list { text-align: center}
+  .dsq-widget-item {margin: 0 -2px 0 0}
+  img.dsq-widget-avatar {padding: 0; width: 28px; height: 28px; float: none; display: block}
+}

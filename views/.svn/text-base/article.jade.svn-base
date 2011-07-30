@@ -1,0 +1,25 @@
+img(src="images/page_article.png", width="956", height="486", alt="Wireframe for OpenNova's Article page")
+
+.spot_wrap#article_d1
+  .spot
+    h2 Articles 
+    p Know more about what AIM has been up to and their efforts to drive innovation in Malaysia.
+    a.toggle_comments(href="#", rel="d1") Discuss About This Feature &raquo;
+
+.spot_wrap#article_d2
+  .spot
+    h2 The Numbers
+    p All of AIM's initiatives must benefit or improve an individual, an institution or organization and here is where we wish to track and represent those numbers.
+    a.toggle_comments(href="#", rel="d2") Discuss About This Feature &raquo;
+
+.spot_wrap#article_d3
+  .spot
+    h2 Main Contents
+    p This is where we display the main content for this particular page and section with quick links into any sub-topics.
+    a.toggle_comments(href="#", rel="d3") Discuss About This Feature &raquo;
+
+.spot_wrap#article_d4
+  .spot
+    h2 Initiatives
+    p Grouping together the various initiatives into topics or sectors that are relevant to Malaysians.
+    a.toggle_comments(href="#", rel="d4") Discuss About This Feature &raquo;

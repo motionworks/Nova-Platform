@@ -1,0 +1,2548 @@
+
+net.js:1175
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+ 
+       if (e.code == 'ENOTSOCK') {
+   
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+        ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+startup (node.js:37:13)
+    at node.js:439:3
+   ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+
+    if (e.code == 'ENOTSOCK') {
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+
+net.js:1175
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+    if (e.code == 'ENOTSOCK') {
+   
+net.js:1175
+         if (e.code == 'ENOTSOCK') {
+         ^
+ ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+
+net.js:1175
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+    if (e.code == 'ENOTSOCK') {
+         ^
+
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+        if (e.code == 'ENOTSOCK') {
+           ^
+   ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+   
+      ^
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+     if (e.code == 'ENOTSOCK') {
+        ^
+ 
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+        ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+                 ^
+
+ ^
+net.js:1175
+
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+
+
+net.js:1175
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+      if (e.code == 'ENOTSOCK') {
+   net.js:1175
+    if (e.code == 'ENOTSOCK') {
+       ^
+      ^
+
+         ^
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+
+         ^
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         
+^
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+      TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+   ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^    if (e.code == 'ENOTSOCK') {
+
+ 
+        ^
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+
+net.js:1175
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+    if (e.code == 'ENOTSOCK') {
+      TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+   ^
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+
+    if (e.code == 'ENOTSOCK') {
+         net.js:1175
+^
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+     if (e.code == 'ENOTSOCK') {
+         ^
+        ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+ 
+        ^
+
+net.js:1175
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+    if (e.code == 'ENOTSOCK') {
+              ^
+    ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+
+      net.js:1175
+   ^
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+
+    if (e.code == 'ENOTSOCK') {
+         ^
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+
+         ^
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+
+net.js:1175
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+         ^
+TypeError: Cannot read property 'code' of undefined
+    at getFdType (net.js:1175:10)
+    at Socket.open (net.js:254:23)
+    at new Socket (net.js:233:10)
+    at Function.processStdio (node.js:234:23)
+    at startup (node.js:37:13)
+    at node.js:439:3
+
+net.js:1175
+    if (e.code == 'ENOTSOCK') {
+    

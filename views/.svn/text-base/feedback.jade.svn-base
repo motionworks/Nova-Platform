@@ -1,0 +1,5 @@
+h1 What do you think?
+
+#disqus_thread
+
+script(src='http://opennova.disqus.com/embed.js', type="text/javascript", async=true)

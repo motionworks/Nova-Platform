@@ -1,0 +1,142 @@
+!!! 5
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+html.no-js
+  <!--<![endif]-->
+  head
+    meta( charset="utf-8" )/
+    
+    title= title
+    meta( content = "Agensi Inovasi Malaysia & Motionworks", name = "author" )/
+    meta( content = "Inovasi Malaysia is a national initiative to spur innovation within Malaysia by encouraging people to start taking actions on their ideas.", name = "description" )/
+    
+    meta(property = "og:title", name= "", http-equiv="", content=title)/
+    meta(property = "og:type", name= "", http-equiv="", content="website")/
+    meta(property = "og:url", name= "", http-equiv="", content="http://nova.inovasimalaysia.com/")/
+    meta(property = "og:image", name= "", http-equiv="", content="http://inovasimalaysia.com/images/nova-logo.png")/
+    meta(property = "og:site_name", name= "", http-equiv="", content="Inovasi Malaysia")/
+    meta(property = "fb:page_id", name= "", http-equiv="", content="143567002379914")/
+    meta(property = "og:description", name= "", http-equiv="", content="Inovasi Malaysia is a national initiative to spur innovation within Malaysia by encouraging people to start taking actions on their ideas.")/
+    
+    script( src="/js/modernizr.min.js" )
+    link( href="/css/nova_footer.css", media="all", rel="stylesheet" )/
+    link( href="/css/style.css", media="all", rel="stylesheet" )/
+        
+  script(id = "threadTmpl", type = "text/x-jquery-tmpl")
+    .thread
+      h2 \${title}
+      p.desc \${desc}
+      p.action What do you think?
+      #disqus_thread
+    
+  body(id=bodyId)
+    #container
+      header#header
+        .inner
+          #site-logo
+            a(href="/") Open Nova
+          nav#top-nav
+            ul
+              li
+                a(href="/ideas") Ideas
+              li
+                a(href="/collaborate") Collaborate
+              li
+                a(href="/discuss") Discuss
+              li
+                a(href="/ask") Ask
+              li
+                a(href="/wiki") Wiki
+              li
+                a(href="/article") Article
+          - if (bodyId != 'wiki')
+            a.mockup(href="/images/mockup/" + bodyId + ".jpg") View This Page's <span>Design Mockup</span>
+      #main
+        header#main-top
+          .inner
+            a(href="/" + bodyId)
+              h1 #{pageName} @ Nova
+        - if (bodyId == 'idea')
+          nav#tags
+            .level-1
+              .inner
+                a#submit-idea(href = "#") Submit Idea
+        #content!= body
+        
+    footer#aim_footer
+      .inner
+        #copyright
+          p Nova is a joint initiative powered by <a href="http://motionworks.com.my">Motionworks</a> &amp; <a href="http://agensi.inovasimalaysia.com">AIM</a>.
+          p In conjunction with <a href="http://tandemic.com/">Tandemic</a>.
+        #logo_aim
+          a(href = "http://agensi.inovasimalaysia.com") AIM: Agensi Innovasi Malaysia
+    #sticky_footer
+      .inner
+        #footer_network
+          nav
+            ul
+              li#footer_home
+                a(href = "http://inovasimalaysia.com") Home
+              li#footer_learn
+                a(href = "http://agensi.inovasimalaysia.com") Learn
+                .info
+                  p Learn about Innovation and AIM, the agency set up to champion innovation in Malaysia
+                  a.more(href = "http://agensi.inovasimalaysia.com") Visit AIM &raquo;
+              li#footer_share
+                a(href = "http://nova.inovasimalaysia.com") Share
+                .info
+                  p Share and collaborate with other innovators on Nova, the Open Innovation Platform
+                  a.more(href = "http://nova.inovasimalaysia.com") Nova Platform &raquo;
+              li#footer_participate
+                a(href = "http://weekend.inovasimalaysia.com/") Participate
+                .info
+                  p Participate and meet other like-minded innovators in the Spark Sessions & Nova Weekends
+                  a.more(href = "http://weekend.inovasimalaysia.com/") Nova Weekends &raquo; 
+              li#footer_adopt
+                a(href = "http://comlab.inovasimalaysia.com/") Participate
+                .info
+                  p Participate and adopt the like-minded innovators in the Commercialisation Lab
+                  a.more(href = "http://comlab.inovasimalaysia.com/") Commercialisation Lab &raquo;
+        #footer_social
+          nav
+            ul
+              li#footer_facebook
+                a(href = "http://www.facebook.com/NovaMalaysia", title = "Join us on Facebook") Facebook
+              li#footer_twitter
+                a(href = "http://twitter.com/novamalaysia", title = "Join us on Twitter") Twitter
+          #footer_facebook_like
+            | <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FOpennova%2F142932372443377&amp;layout=button_count&amp;show_faces=true&amp;width=120&amp;action=like&amp;font=verdana&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px;" allowTransparency="true"></iframe>
+          
+    script( src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" )
+    script( src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js" )
+    script( src="/js/libs/jquery.nyroModal.custom.min.js?v=1" )
+    script( src="/js/libs/jquery.tmpl.min.js?v=1" )
+    script( src="/js/plugins.js" )
+    script( src="/js/nova_footer.js" )
+    - if (bodyId == 'idea')
+      script( src="/js/libs/underscore-min.js?v=1" )
+      script( src="/js/libs/backbone-min.js?v=1" )
+      script( src="/js/libs/jquery.isotope.min.js?v=1" )
+      script( src="/js/ideas.js" )
+    - else
+      script( src="/js/script.js" )
+    
+    /[if lt IE 7 ]
+      script( src="/js/dd_belatedpng.js" )
+      script
+        //DD_belatedPNG.fix('img, .png_bg')
+    
+    script
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-22753531-1']);
+      _gaq.push(['_setDomainName', '.inovasimalaysia.com']);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();

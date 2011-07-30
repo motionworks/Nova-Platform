@@ -1,0 +1,53 @@
+.pitch
+  p.big <strong>Nova</strong>, Malaysia's Open Innovation Platform. <span>Help us bring the best innovation platform to you by giving us your suggestions.</span>
+
+#how-to
+  ol
+    li Browse The Site
+    li Explore The Feature
+    li Start Discussing!
+    
+#story
+  .story-inner
+    h2 What is Nova?
+    p <strong>Nova</strong> is an online open innovation platform where people share ideas, seek expertise, form collaborative teams, attract funders and customers. It is a crowd-sourced movement to turn innovative ideas into reality.
+    
+    h2 Help Us, Help You
+    p This wireframe site is a documentation of our ideas, and we need you to validate it.
+    p Feel free to explore our work in progress website and click on features to include your comments for each section. We welcome constructive criticism!
+
+#nova-progress
+  h2 Contributors
+  section#idea
+    .progress-inner
+      h3 Idea
+      .contributors
+        ul
+          li <a href="http://www.facebook.com/conancat"><img src="http://graph.facebook.com/conancat/picture" alt="Grey" width="28" height="28"></a>
+          li <a href="http://www.facebook.com/divya.gunaseelan"><img src="http://graph.facebook.com/divya.gunaseelan/picture" alt="Divya" width="28" height="28"></a>
+          li <a href="http://www.facebook.com/wickedevils57"><img src="http://graph.facebook.com/wickedevils57/picture" alt="Lyana" width="28" height="28"></a>
+          li <a href="http://www.facebook.com/profile.php?id=100000023910997"><img src="http://graph.facebook.com/100000023910997/picture" alt="Suffian" width="28" height="28"></a>
+          li <a href="http://www.facebook.com/arafat.hussein"><img src="http://graph.facebook.com/arafat.hussein/picture" alt="Arafat" width="28" height="28"></a>
+          li <a href="http://www.facebook.com/akmalfikri.ar"><img src="http://graph.facebook.com/akmalfikri.ar/picture" alt="Akmal" width="28" height="28"></a>
+          li <a href="http://www.facebook.com/gill.aaron"><img src="http://graph.facebook.com/gill.aaron/picture" alt="Aaron" width="28" height="28"></a>
+          li <a href="http://www.facebook.com/ramin.vakilian"><img src="http://graph.facebook.com/ramin.vakilian/picture" alt="Ramin" width="28" height="28"></a>
+          li <a href="http://www.facebook.com/farid.hanif"><img src="http://graph.facebook.com/farid.hanif/picture" alt="Farid" width="28" height="28"></a>
+          li <a href="http://www.facebook.com/profile.php?id=526608355"><img src="http://graph.facebook.com/526608355/picture" alt="Win Nie" width="28" height="28"></a>
+          li <a href="http://www.facebook.com/profile.php?id=736976801"><img src="http://graph.facebook.com/736976801/picture" alt="Zafrul" width="28" height="28"></a>
+          li <a href="http://www.facebook.com/kennethkiffer"><img src="http://graph.facebook.com/kennethkiffer/picture" alt="Kenneth" width="28" height="28"></a>
+          li <a href="http://www.facebook.com/zhafrie"><img src="http://graph.facebook.com/zhafrie/picture" alt="Zhafrie" width="28" height="28"></a>
+            
+  
+  section#concept.active
+    .progress-inner
+      h3 Concept <span class="stage"> Stage</span>
+      .contributors
+        <div id="topcommenters" class="dsq-widget"><script type="text/javascript" src="http://opennova.disqus.com/top_commenters_widget.js?num_items=20&hide_mods=0&hide_avatars=0&avatar_size=28"></script></div>
+    
+  section#prototype
+    .progress-inner
+      h3 Prototype
+  
+  section#product
+    .progress-inner
+      h3 Product

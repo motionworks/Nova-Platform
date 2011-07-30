@@ -1,0 +1,64 @@
+script(id : "ideaTmpl", type : "text/x-jquery-tmpl")
+    .info
+      \{{if (contentType == 'text') }}
+      h2 \${title}
+      \{{/if}}
+      \{{if (contentType == 'url') }}
+      a(href : "\${url}", target : '_blank')
+        h2 \${title}
+      \{{/if}}
+      \{{if (contentType == 'image') }}
+      h2 \${title}
+      .idea-media
+        img(src : "\${url}", width : "280", height : "210")
+      \{{/if}} 
+      \{{if (contentType == 'video') }}
+      h2 \${title}
+      .idea-media
+        | <object style="height: 235px; width: 280px"><param name="movie" value="http://www.youtube.com/v/\${url}&version=3&controls=0&feature=player_embedded"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/\${url}&version=3&controls=0&feature=player_embedded" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="280" height="235"></object>
+      \{{/if}}
+      ul.idea-up
+        li.likes-count <a href="#"><span class="icon">Likes:</span> ${like}</a>
+        li.comments-count <a href="/idea/\${id}"><span class="icon">Comments:</span> ${commentsNum}</a>
+      p.idea-author
+        span.label By 
+        span.content \${username}
+      ul.tags
+        \{{each(i, tag) tags}}
+        li
+          a(href : "#") \${tag}
+        \{{/each}}
+    .comments
+      h3 Description
+      p.desc \${desc}
+      a.more(href : "/idea/\${id}") View Comments &raquo;
+    
+script(id : "ideaFormTmpl", type : "text/x-jquery-tmpl")
+  form(action : "/idea/new")
+    h1 Share Your Idea Now!
+    p Every idea is a gem!
+    ul
+      li 
+        label(for : "form_title") Title
+        input#form_title(type : "text")/
+      li
+        label(for : "form_desc") Description
+        textarea#form_desc 
+      li
+        label(for : "form_media") Media URL <small>(Optional)</small>
+        input#form_url(type : "text")/
+      li
+        label(for : "form_tags") Tags
+        input#form_tags(type : "text")/
+      li         
+        label(for : "form_name") Username
+        input#form_name(type : "text")/
+      li         
+        label(for : "form_email") Email
+        input#form_email(type : "text")/
+      li
+        input#submit(type : "submit", value : "Share Now!")/
+
+#ideas-container
+//
+  a#get-more-ideas(href:"#/") <span>See More Ideas</span>

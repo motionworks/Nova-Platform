@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/nova_frontend/!svn/ver/45/nova-platform/public/js/qunit
+END
+test.coffee
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/nova_frontend/!svn/ver/45/nova-platform/public/js/qunit/test.coffee
+END
+qunit.css
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/nova_frontend/!svn/ver/45/nova-platform/public/js/qunit/qunit.css
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/nova_frontend/!svn/ver/45/nova-platform/public/js/qunit/index.html
+END
+test.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/nova_frontend/!svn/ver/45/nova-platform/public/js/qunit/test.js
+END
+qunit.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/nova_frontend/!svn/ver/45/nova-platform/public/js/qunit/qunit.js
+END

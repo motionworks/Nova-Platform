@@ -1,0 +1,116 @@
+//-----------------------------------------------
+// The following html5-boilerplate styles should
+// probably be customized for each site
+//-----------------------------------------------
+
+body, select, input, textarea {
+  color: $font-color;
+}
+
+//Headers (h1, h2, etc) have no default font-size or margin; define those yourself
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+a, a:active, a:visited { color: $link-color; text-decoration: none; }
+a:hover { color: $link-hover-color;}
+
+strong, th {
+  font-weight: bold;
+}
+
+small {
+  // Use font-size mixin to convert to percentage for YUI
+  // http://developer.yahoo.com/yui/3/cssfonts/#fontsize
+  @include font-size(11px);  // approx 85% when base-font-size eq 13px
+}
+
+// Add the 'required' attribute on your
+// inputs if you want to use these
+input:valid, textarea:valid {}
+input:invalid, textarea:invalid {
+  @include border-radius(1px);
+  @include box-shadow(red, 0, 0, 5px, 0);
+}
+.no-boxshadow input:invalid,
+.no-boxshadow textarea:invalid { background-color: #f0dddd; }
+
+
+/*===Basic Template====*/
+.inner {@include container;}
+
+/*====Header====*/
+#header {
+  @include line-btm;
+  padding: 0 0 0.5em;
+  margin-bottom: 0.5em;
+  font-family: $display-font;
+  .inner {
+    background: image_url('header_wireframe.png') 100px 0 no-repeat;
+  }
+  .inner>*, nav li{
+    @include inline-block;
+    vertical-align: bottom;
+  }
+  #site-logo a{
+    @include replace-text-with-dimensions('logo.png');
+    display: block;
+  }
+  nav {
+    margin-left: $base-gap;
+    a {
+      padding: 0.4em 0.8em;
+      @include button-link;
+      font-size: 1.4em;
+      background: none;
+    }
+  }
+}
+
+/*====Main content area====*/
+#main {
+  margin-bottom: 0.5em;
+}
+
+#content {
+  position: relative;
+  text-align: center;
+  width: 960px;
+  margin: 0 auto;
+  z-index: 50;
+}
+
+#main-top {
+  @include line-btm;
+  padding-top: 1em;
+  h1 {
+    font-size: 2em;
+    padding-bottom: 5px;
+    font-family: $display-font;
+  }
+}
+
+/*====Footer====*/
+#footer {
+  @include line-top;
+  font-size: 0.75em;
+  text-align: center;
+  nav, div {
+    @include inline-block;
+  }
+  nav { 
+    margin-right: 1em;
+    @include line-right;
+    padding-right: 1em;
+    li {
+      @include inline-block;
+      margin: 0 5px;
+    }
+  }
+  p {
+    overflow: hidden;
+  }
+  small {
+    font-style: italic;
+  }
+}

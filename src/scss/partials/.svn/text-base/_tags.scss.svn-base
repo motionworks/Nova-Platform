@@ -1,0 +1,129 @@
+/*====Main content area====*/
+#main {
+  margin-bottom: 0.5em;
+}
+
+#content {
+  position: relative;
+
+  #msg {
+    font-size: 1.2em;
+    width: 80%;
+    @include boxed;
+    display: block;
+    margin: 0 auto;
+    background: #ffc;
+    position: relative;
+    cursor: pointer;
+  }
+  #msg_close {
+    font-size: $base-font-size;
+    position: absolute;
+    right: 1em;
+    top: 5px;
+  }
+}
+
+#main-top {
+  @include line-btm;
+  overflow: hidden;
+  #section-counter {
+    text-align: right;
+    padding-top: 5px;
+    .number {
+      border: 1px solid #888;
+      padding: 0 5px;
+    }
+  }
+  h1 {
+    float: left; 
+    width: 40%;
+    font-size: 1.8em;
+    padding-bottom: 5px;
+  }
+  #topsearch {
+    float: right;
+    text-align: right;
+    padding-top: $base-gap/2;
+    font-size: 0.8em;
+    input[type="submit"]{
+      @include replace-text-with-dimensions('icon_search.png');
+      background-color: #fff;
+      border: none;
+      outline: none;
+    }
+  }
+}
+
+/*====Tags====*/
+#tags {
+  @include tag-style;
+  margin-bottom: 1em;
+  clear: both;
+  .level-1 {
+    @include line-btm;
+    background-color: #eee;
+    padding-bottom: 5px;
+    overflow: hidden;
+    .inner>* {@include inline-block;}
+    ul {
+      margin-top: 6px;
+      margin-right: 1em;
+      padding-right: 1em;
+      @include line-right;
+    }
+    #submit-idea {
+      @include button-link;
+      padding: 0.2em 0.4em;
+      margin-top: 3px;
+      font-size: 1.2em;
+      float: right;
+      color: #fff;
+    }
+  }
+  .level-2 {
+    @include line-btm;
+    background-color: #ccc;
+    overflow: hidden;
+    .inner>ul, .inner>a {
+      @include inline-block;
+    }
+    ul {
+      padding: 0.5em 0 0.8em;
+      li {
+        margin: 1px;
+        vertical-align: top;
+      }
+    }
+    #tag-selected {
+      width: 550px;
+      .active a {
+        background: #269ecc;
+        &:hover {
+          background: #49CDFF;
+        }
+      }
+      .delete {
+        &:hover {
+          color: #f00; 
+        }
+      }
+    }
+    #tag-recommended {
+      width: 240px;
+      padding: 0.5em 2em 0.8em;
+      background: #999;
+    }
+    #tag-refresh {
+      @include button-link;
+      vertical-align: middle;
+      background: #269ecc;
+      font-size: 1.4em;
+      color: #fff;
+      padding: 4px 8px;
+      &:hover {
+        background: #49cdff;
+      }
+    }
+  }
+}
